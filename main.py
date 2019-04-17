@@ -1,13 +1,7 @@
-
 def fibo(n):
     if n<=2:
         return 1
     return fibo(n-2) + fibo(n-1)
-
-if __name__=="__main__":
-    n = int(input("sequence number :  "))
-    print(fibo(n))
-
 
 def fizzbuzz():
     for i in range(1, 100+1):
@@ -22,3 +16,5 @@ def fizzbuzz():
 
 if __name__=="__main__":
     fizzbuzz()
+    n = input(input("sequence number :  "))
+    print(fibo(n))
