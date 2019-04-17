@@ -1,2 +1,2 @@
-for - in (1, 5+1):
+for - in (1, 10+1):
     print("hello")
